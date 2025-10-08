@@ -3,7 +3,7 @@ services:
     image: dockurr/macos
     container_name: macos
     environment:
-      VERSION: "10.12"
+      VERSION: "12"
     devices:
       - /dev/kvm
       - /dev/net/tun
